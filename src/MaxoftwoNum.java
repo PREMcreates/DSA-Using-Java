@@ -5,6 +5,11 @@ public class MaxoftwoNum {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+        if(a > b)
+            System.out.println(a);
+        else
+            System.out.println(b);
+
         System.out.println(Math.max(a,b));
     }
 }
